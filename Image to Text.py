@@ -10,7 +10,6 @@ import re
 import xlsxwriter
 
 
-from pandas import ExcelWriter
 from PIL import Image
 
 pytesseract.pytesseract.tesseract_cmd = r#"executable path"
@@ -27,13 +26,6 @@ for line in lines:
 lines
 
 
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
